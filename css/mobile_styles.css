@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .row-header{
+        margin: 0px auto;
+        padding: 20px 10px;
+    }
+    .page-name {
+        font-size: 42pt;
+    }
+}

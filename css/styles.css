@@ -1,6 +1,5 @@
 html {
     font-size: 16px;
-    font-family: Roboto,sans-serif;
 }
 body{
     padding:0px 0px 0px 0px;
@@ -8,17 +7,18 @@ body{
     height: 2000px;
 }
 .bg-image{
-    background: url("https://lh4.googleusercontent.com/UW4Q7Q5qcWD1r_52BF_UY6T-T6fw3MbXqo-bMc5WRInfSXRItRq1uOWuYLx9FRTzR_enuOVmiDf0vHTkakRp-io");
+    background: url("../img/jumbotron.jpg");
     background-size: cover;
     background-position: center center;
 }
-.navbar {
+.navbar{
     background: rgba(31,56,80,0.2);
 }
 .navbar:hover{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 .jumbotron {
+    padding: 4rem 2rem;
     background: rgba(31,56,80,0.8);
     padding-right: 0;
     padding-left: 0;
@@ -28,29 +28,21 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.jumbotron .row {
-    padding: 44px 56px;
-    margin: auto;
-    box-shadow: inset 0px 0px 0px 7px white;
-    max-width: 1280px;
-}
 .row-header{
     margin: 0px auto;
-    padding: 0px;
+    padding: 44px 56px;
+    box-shadow: inset 0px 0px 0px 7px white;
+    max-width: 1280px;
+    /* display: inline-block; */
 }
-.jumbotron .d-flex{
-    width: auto;
-}
-.jumbotron span {
+.page-name {
+    font-size: 64pt; 
     overflow-wrap: anywhere;
     text-align: center;  
     color: white;
     font-family: 'Oswald';
     font-weight: 600;
-    vertical-align: baseline;   
-}
-#page-name {
-    font-size: 64pt; 
+    vertical-align: baseline;
 }
 .content {
     padding-top: 200px;
