@@ -17,6 +17,10 @@ body{
 .navbar:hover{
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
+.navbar-brand {
+    font-family: 'Playfair Display', serif;    
+    font-size: 18pt;
+}
 .jumbotron {
     padding: 4rem 2rem;
     background: rgba(31,56,80,0.8);
@@ -24,25 +28,29 @@ body{
     padding-left: 0;
     border-radius: 0;
 }
-.jumb-hmarg {
+.center-header{
+    width:100%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1280px;
+    text-align: center;
 }
 .row-header{
     margin: 0px auto;
     padding: 44px 56px;
-    box-shadow: inset 0px 0px 0px 7px white;
-    max-width: 1280px;
-    /* display: inline-block; */
+    box-shadow: inset 0px 0px 0px 6px white;
+    display: inline-block;
 }
 .page-name {
     font-size: 64pt; 
-    overflow-wrap: anywhere;
+    letter-spacing: -0.8px;
     text-align: center;  
     color: white;
-    font-family: 'Oswald';
-    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
     vertical-align: baseline;
+    white-space: pre-wrap;
+    /* word-wrap: break-word; */
+    overflow-wrap: anywhere;
 }
 .content {
     padding-top: 200px;

@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+    .navbar-brand {
+        font-family: 'Playfair Display', serif;    
+        font-size: 15pt;
+    }
     .row-header{
         margin: 0px auto;
         padding: 20px 10px;
