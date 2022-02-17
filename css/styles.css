@@ -11,6 +11,11 @@ body{
     background-size: cover;
     background-position: center center;
 }
+.bg-contact{
+    background: url("../img/contact.JPG");
+    background-size: cover;
+    background-position: center center;
+}
 .navbar{
     background: rgba(31,56,80,0.2);
 }
@@ -23,7 +28,7 @@ body{
 }
 .jumbotron {
     padding: 4rem 2rem;
-    background: rgba(31,56,80,0.8);
+    background: rgba(31,56,80,0.75);
     padding-right: 0;
     padding-left: 0;
     border-radius: 0;
@@ -55,4 +60,23 @@ body{
 .content {
     padding-top: 200px;
     height: 1000px;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.row-content h2 {
+    text-align: center;
+}
+.row-content span {
+    font-family: 'Playfair Display', serif;
+    font-size: 29pt;
+}
+.row-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+    /* text-align: justify;
+    text-justify: inter-word; */
 }

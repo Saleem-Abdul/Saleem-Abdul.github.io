@@ -1,6 +1,5 @@
 @media (max-width: 768px) {
-    .navbar-brand {
-        font-family: 'Playfair Display', serif;    
+    .navbar-brand { 
         font-size: 15pt;
     }
     .row-header{
@@ -9,5 +8,8 @@
     }
     .page-name {
         font-size: 42pt;
+    }
+    .row-content p {
+        font-size: 12pt;
     }
 }
