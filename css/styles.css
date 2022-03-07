@@ -4,7 +4,7 @@ html {
 body{
     padding:0px 0px 0px 0px;
     z-index:0;
-    height: 2000px;
+    /* height: 2000px; */
 }
 .bg-image{
     background: url("../img/jumbotron.jpg");
@@ -41,7 +41,6 @@ body{
     text-align: center;
 }
 .row-header{
-    margin: 0px auto;
     padding: 44px 56px;
     box-shadow: inset 0px 0px 0px 6px white;
     display: inline-block;
@@ -79,4 +78,9 @@ body{
     font-size: 16pt;
     /* text-align: justify;
     text-justify: inter-word; */
+}
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
 }
